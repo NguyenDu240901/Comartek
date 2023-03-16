@@ -20,4 +20,9 @@ Toán tử so sánh
 Câu lệnh điều kiện If
 Toán tử Logical
 Kiểu typeof
-Truthy và Falsy
+Truthy và 
+
+### Const
+```js
+const a = 1;
+```
