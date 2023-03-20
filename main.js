@@ -84,12 +84,12 @@
 // let num = Number(str);
 // alert(typeof num)
 
-//Chuyển đổi boolean
-alert( Boolean(1) ); // true
-alert( Boolean(0) ); // false
+// //Chuyển đổi boolean
+// alert( Boolean(1) ); // true
+// alert( Boolean(0) ); // false
 
-alert( Boolean("hello") ); // true
-alert( Boolean("") ); // false
+// alert( Boolean("hello") ); // true
+// alert( Boolean("") ); // false
 
 function showDialog() {
     alert('Hi xin chao cac ban')
@@ -168,5 +168,66 @@ console.log(fullName.trim()) //Loại bỏ khoảng trắng hai bên
 var language = 'Javascripts, PHP, Ruby';
 console.log(language.split(', ')) //Đổi dạng string sang array
 
-var myString2 = 'Nguyen Du';
-console.log(myString2.charAt(0)) //Lấy ra được chữ cái tương ứng
+var language = [
+  'javascripts',
+  'PHP',
+  'Python',
+  'Dart',
+  null,
+  undefined,
+  function() {
+
+  },
+  {},
+]
+var language2 = [
+  'Dart',
+  'Python',
+]
+console.log(Array.isArray(language))
+console.log(language.length)
+console.log(language[2])
+
+console.log(language.join(" - ")) //join
+console.log(language.pop()) //Xóa element cuối mảng và trả về phần tử đã xóa
+console.log(language.push('HTML', 'java'))
+console.log(language.shift(0, 2))
+console.log(language.unshift('CSS'))
+language.splice(2, 1, 'Dart') //(vị trí chèn, xóa, thêm vào)
+console.log(language2.concat(language))
+console.log(language.slice(2, 4)) // bắt đầu, vị trí ngừng việc cắt
+console.log(language)
+
+var emailKey = 'email';
+var myInfo = {
+  age: 18,
+  name: 'nguyendu',
+  address: 'Ha Noi',
+  [emailKey]: 'nguyendu@gmail.com',
+  getName: function() {
+    return this.name;
+  }
+}
+myInfo.email /*myInfo['my-email']*/= 'Nguyendu24090@gmail.com'
+var myKey = 'address';
+delete myInfo.address // xóa key
+console.log(myInfo)
+console.log(myInfo.age)
+console.log(myInfo[myKey])
+console.log(myInfo.getName())
+
+//Object Constructor
+function User(firstName, lastName, avatar) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.avatar = avatar;
+}
+
+var author = new User('Du', 'Nguyen', 'Avatar');
+var user = new User('Dat', 'Nguyen', 'Avatar');
+
+author.title = 'Hoc javascripts';
+user.comment = 'Comartek building';
+
+console.log(author);
+console.log(user);
