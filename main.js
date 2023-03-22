@@ -239,7 +239,7 @@
 
 
 
-
+// 22/03/2023
 function myPerson(firstName, lastName, age, eyecolor) {
     this.firstName = firstName;
     this.lastName = lastName;
