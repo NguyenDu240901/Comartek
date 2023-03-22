@@ -232,6 +232,14 @@
 // console.log(author);
 // console.log(user);
 
+
+
+
+
+
+
+
+
 function myPerson(firstName, lastName, age, eyecolor) {
     this.firstName = firstName;
     this.lastName = lastName;
