@@ -87,7 +87,7 @@ Object
 object constructor.
 object prototype
 
-22/03/2023
+///22/03/2023
 Đối tượng date
 Math object
 
