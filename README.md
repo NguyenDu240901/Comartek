@@ -86,6 +86,23 @@ Object
 
 object constructor.
 object prototype
+
+22/03/2023
+Đối tượng date
+Math object
+
+Câu lệnh rẽ nhánh - If else hay dùng khi so sánh hay <3 case 
+                    Switch hay dùng khi có giá trị cho trước, >3 case 
+
+
+Toán tử 3 ngôi
+
+
+Vòng lặp for
+Vòng lặp for in
+Vòng lặp for of
+
+
 ### Const
 ```js
 const a = 1;
