@@ -85,7 +85,7 @@ Object
 object constructor.
 object prototype
 
-///22/03/2023
+//22/03/2023
 Đối tượng date
 Math object
 
@@ -111,6 +111,9 @@ Vòng lặp While
 Break và Continue
 
 Vòng lặp lồng nhau (Nested loop)
+
+
+
 
 const a = 1;
 
