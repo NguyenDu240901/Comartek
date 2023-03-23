@@ -1,3 +1,7 @@
+
+
+### Const
+```js
 <!-- Biến
     let
     var
@@ -115,25 +119,7 @@ Break và Continue
 
 Vòng lặp lồng nhau (Nested loop)
 
-
-### Const
-```js
 const a = 1;
 
-Vòng lặp for
-Vòng lặp for in
-Vòng lặp for of
-For ... in dùng để duyệt qua key của Object và duyệt các index trong 1 chuỗi
 
-For ... of dùng để duyệt qua các phần tử của mảng và duyệt các phần tử trong 1 chuỗi
-
-Còn Object.keys đơn giản , keys() là 1 phương thức của đối tượng Object dùng để trả về mảng các key của Object đó
-
-Vòng lặp do...While: nó chạy trước 1 lần dù điều kiện đúng hay sai, vòng lặp tiếp theo nó sẽ để ý đến điều kiện
-
-Vòng lặp While
-
-Break và Continue
-
-Vòng lặp lồng nhau (Nested loop)
 ```
