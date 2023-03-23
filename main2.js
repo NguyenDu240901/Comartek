@@ -1,16 +1,16 @@
 //Bài tập sử dụng For... in
-/*function run(object) {
+function run(object) {
     var arr = [];
     for(var key in object) {
         arr.push(`Thuộc tính ${key} có giá trị ${object[key]}`)
     }
     return arr
 }
-console.log(run({ name: 'Nguyen Van A', age: 16 }));*/
+console.log(run({ name: 'Nguyen Van A', age: 16 }));
 
 
 // Vòng lặp For... of
-/*var myInfo = {
+var myInfo = {
     name: 'Nguyen du',
     age: 18,
 }
@@ -26,19 +26,19 @@ for(var value of Object.keys(myInfo)) {
 
 for(var value of language) {
     console.log(value)
-}*/
+}
 
 
 // Vòng lặp While
-// var i = 1;
+var i = 1;
 
-// while(i < 1000) {
-//     i++
-//     console.log(i);
-// }
+while(i < 1000) {
+    i++
+    console.log(i);
+}
 
 
-/*var myArray = [
+var myArray = [
     'java',
     'php',
 ]
@@ -46,11 +46,11 @@ var i = 0
 while(i < myArray.length) {
     console.log(myArray[i]);
     i++;
-}*/
+}
 
 
 // Vòng lặp do... while
-/*var i = 0;
+var i = 0;
 var isSuccess = false;
 do {
     i++;
@@ -59,21 +59,21 @@ do {
     if (true) {
         isSuccess = true
     }
-} while (!isSuccess && i <=3)*/
+} while (!isSuccess && i <=3)
 
 
 // Break và continue trong vòng lặp
-/*for(var i = 0; i < 10; i++) {
+for(var i = 0; i < 10; i++) {
     
     if(i % 2 !== 0) {
         continue
     }
     console.log(i);
-}*/
+}
 
 
 // Vòng lặp lồng nhau
-/*var myArray = [
+var myArray = [
     [1, 2],
     [3, 4],
     [5, 6]
@@ -83,7 +83,7 @@ for(var i = 0; i < myArray.length; i++) {
     {
         console.log(myArray[i][j])
     }
-}*/
+}
 
 
 /*for(var i = 100; i >= 0; i -= 5) {

@@ -31,7 +31,6 @@ Truyền tham số: 1 tham số, nhiều tham số
 Arguments: Đối tượng argument, vòng for,
 Return trong hàm
 
-
 Prompt,
 Confirm,
 Javascripts string method: Làm việc với chuỗi như:
@@ -45,10 +44,8 @@ Javascripts string method: Làm việc với chuỗi như:
     toLocaleLowerCase,
     trim,
 
-
 Split() , 
 Character by index  
-
 
 Kiểu dữ liệu số (number)
     Kiểu số - Number:
@@ -62,7 +59,6 @@ Kiểu dữ liệu số (number)
         Number.parseInt()	Chuyển đổi chuỗi đã cho thành một số nguyên
         Number.prototype.toFixed()	Chuyển đổi và trả về chuỗi đại diện cho số đã cho, có số chữ số chính xác sau dấu thập phân
         Number.prototype.toString()	Chuyển đổi và trả về số đã cho dưới dạng chuỗi
-
 
 Mảng trong javascripts - Array
     Tạo mảng:
@@ -82,11 +78,9 @@ Làm việc với Array
     Concat, nối array
     Slicing, cắt 1 vài elenment của mảng
 
-
 Object
     thuộc tính. vd phone,age
     phưởng thức. vd getAge: function() {}
-
 
 object constructor.
 object prototype
@@ -97,7 +91,6 @@ Math object
 
 Câu lệnh rẽ nhánh - If else hay dùng khi so sánh hay <3 case 
                     Switch hay dùng khi có giá trị cho trước, >3 case 
-
 
 Toán tử 3 ngôi
 
