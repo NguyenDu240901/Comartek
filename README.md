@@ -118,10 +118,13 @@ Làm việc với mảng: forEach() - duyệt qua từng phần tử của mản
                     every() - kiểm tra các phần tử của mảng phải thỏa mảng một điều kiện nào đó và trả về kiểu boolean
                     some() - ngược lại với every chỉ cần một phần tử đúng sẽ trả về boolean true
                     find() - tìm kiếm một phần tử trong mảng
-                    filter() - tìm kiếm tất cae các phần tử thoa mảng trong mảng
+                    filter() - tìm kiếm tất cả các phần tử thoa mảng trong mảng
 
 
 
+
+
+Array reduce() method
 
 const a = 1;
 
