@@ -123,7 +123,7 @@ Làm việc với mảng: forEach() - duyệt qua từng phần tử của mản
 
 
 
-
+Map()
 Array reduce() method
 
 const a = 1;
