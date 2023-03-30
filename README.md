@@ -126,6 +126,13 @@ Làm việc với mảng: forEach() - duyệt qua từng phần tử của mản
 Map()
 Array reduce() method
 
+//
+
+filter() callback
+forEach() callback
+some() callback
+every() callback
+
 const a = 1;
 
 
