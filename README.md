@@ -133,7 +133,13 @@ forEach() callback
 some() callback
 every() callback
 
-const a = 1;
+
+
+HTML DOM
+
+Document object
+Get element methods
+Attribute node & Text node
 
 
 ```
