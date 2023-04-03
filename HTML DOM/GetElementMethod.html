@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+</head>
+
+```
+
+//1. getElementById(): Phương thức này trả về một phần tử trong tài liệu HTML bằng cách sử dụng ID của phần tử. Ví dụ:
+<body>
+    <h1 id="myHeading">Hello World!</h1>
+<script>
+    var heading = document.getElementById("myHeading");
+    console.log(heading.innerHTML);
+</script>
+</body>
+```
+
+//2. getElementsByTagName(): Phương thức này trả về tất cả các phần tử trong tài liệu HTML với thẻ được chỉ định. Ví dụ:
+
+```
+<body>
+    <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    </ul>
+<script>
+    var lis = document.getElementsByTagName("li");
+    for(var i = 0; i < lis.length; i++) {
+    console.log(lis[i].innerHTML);
+    }
+</script>
+</body>
+```
+
+//3. getElementsByClassName(): Phương thức này trả về tất cả các phần tử trong tài liệu HTML với lớp CSS được chỉ định. Ví dụ:
+
+```
+<body>
+    <ul>
+    <li class="item">Item 1</li>
+    <li class="item">Item 2</li>
+    <li class="item">Item 3</li>
+    </ul>
+<script>
+    var items = document.getElementsByClassName("item");
+    for(var i = 0; i < items.length; i++) {
+    console.log(items[i].innerHTML);
+    }
+</script>
+</body>
+```
+
+//4. querySelector(): Phương thức này trả về phần tử đầu tiên trong tài liệu HTML mà tồn tại với truy vấn CSS được chỉ định. Ví dụ:
+```
+<body>
+    <ul>
+    <li class="item">Item 1</li>
+    <li class="selected item">Item 2</li>
+    <li class="item">Item 3</li>
+    </ul>
+<script>
+    var selected = document.querySelector(".selected");
+    console.log(selected.innerHTML);
+</script>
+</body>
+```
+
+//5. querySelectorAll(): Phương thức này trả về tất cả các phần tử trong tài liệu HTML mà tồn tại với truy vấn CSS được chỉ định. Ví dụ:
+```
+<body>
+    <ul>
+    <li class="item">Item 1</li>
+    <li class="selected item">Item 2</li>
+    <li class="item">Item 3</li>
+    </ul>
+<script>
+    var items = document.querySelectorAll(".item");
+    for(var i = 0; i < items.length; i++) {
+    console.log(items[i].innerHTML);
+    }
+</script>
+</body>
+```
+
+
+
+
+<script src="./htmldom.js"></script>
+<script src="./Get_element_methods.js"></script>
+</html>

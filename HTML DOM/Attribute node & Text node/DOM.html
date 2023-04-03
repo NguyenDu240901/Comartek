@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    1 id="main-heading">Đây là tiêu đề chính</h1>
+    class="content">Đây là nội dung của đoạn văn bản.</p>
+    
+    <script>
+    // Lấy thuộc tính ID của tiêu đề chính
+    var mainHeading = document.getElementById("main-heading");
+    console.log(mainHeading.id); // output: main-heading
+    
+    // Lấy thuộc tính class của đoạn văn bản
+    var contentText = document.getElementsByClassName("content")[0].firstChild;
+    console.log(contentText.nodeValue); // output: Đây là nội dung của đoạn văn bản.
+    </script>
+</body>
+</html>
