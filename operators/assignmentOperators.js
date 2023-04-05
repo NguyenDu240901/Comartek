@@ -9,5 +9,3 @@ a = b = c; //all variables are 30
 
 b = c; //b = 30
 a = b; //a = 30
-//
-//

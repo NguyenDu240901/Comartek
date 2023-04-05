@@ -51,5 +51,3 @@ console.log(d || c); //false
 //all value = false => return last value
 
 //! Note -> ! > && >> ||
-//
-//

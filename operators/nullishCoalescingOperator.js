@@ -26,5 +26,3 @@ console.log(rs); //rs = 1
 //Chaining with the AND or OR operator
 const result = (null || undefined) ?? 'Ok';
 console.log(result); //'Ok'
-//
-//

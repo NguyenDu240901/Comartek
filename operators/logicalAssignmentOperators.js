@@ -26,5 +26,3 @@ let user = {
 user.nickname = 'DuDepTrai';
 
 console.log(user); //{ username: 'NguyenDu', nickname: 'DuDepTrai' }
-//
-//
