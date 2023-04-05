@@ -2,6 +2,7 @@ let formatted = true;
 if(formatted) {
     console.log('The code is easy to read');
 }
+
 //or
 let formattedTwo = true;
 if(formattedTwo) {
@@ -18,7 +19,6 @@ if(true) {
 }
 
 //Identifiers: Start -> a-z, A->Z, _, $, End: a-z, A-Z, 0-9, _, $
-
 
 //Comment
 //

@@ -107,8 +107,10 @@ console.log(contact.address.street); //North 1st street
 //property that does not exist -> undefined
 //changed value
 contact.firstName = 'Du';
+
 //add value
 contact.age = 22;
+
 //delete property
 delete contact.lastName;
 
