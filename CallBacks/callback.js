@@ -34,3 +34,4 @@ var htmls = courses.map2(function(courses, index) {
 });
 
 console.log(htmls)
+//
