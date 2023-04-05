@@ -47,3 +47,5 @@ console.log(NaN === NaN); //false
 
 // === comparison type and value(kiểu so sánh và giá trị)
 // == comparison value(giá trị so sánh)
+//
+//

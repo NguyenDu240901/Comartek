@@ -44,3 +44,4 @@ const isOddT = (num) => num % 2;
 
 // function modulo(a, b)
 const mod = (dividend, divisor) =>((dividend % divisor)) % divisor;
+//
