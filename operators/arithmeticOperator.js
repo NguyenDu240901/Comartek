@@ -49,6 +49,4 @@ let energyOne = {
     },
 };
 let currentEnergyOne = energyOne + 1;
-console.log(currentEnergyOne); //51 
-//
-//
+console.log(currentEnergyOne); //51
