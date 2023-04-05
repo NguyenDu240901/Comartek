@@ -24,7 +24,6 @@ console.log(result); //20
 // Multiplication operator (toán tử nhân)
 let rs = 2 * 3;
 console.log(rs); //6
-
 console.log(2 * '3'); //6
 
 //Divide operator (toán tử chia)

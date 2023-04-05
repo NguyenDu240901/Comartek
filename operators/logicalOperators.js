@@ -1,4 +1,4 @@
-//Not
+// Not
 let isLoading = false;
 console.log(!isLoading); //true
 

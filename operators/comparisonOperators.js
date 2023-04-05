@@ -26,6 +26,7 @@ let apple = {
     },
 };
 // -> apple = 10
+
 let orange = {
     toString: function() {
         return '20';
@@ -45,5 +46,5 @@ console.log(NaN === NaN); //false
 
 //strict equal
 
-// === comparison type and value(kiểu so sánh và giá trị)
-// == comparison value(giá trị so sánh)
+// === comparison type and value (kiểu so sánh và giá trị)
+// == comparison value (giá trị so sánh)

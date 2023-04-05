@@ -23,6 +23,6 @@ console.log(age); //0
 let user = {
     username: 'NguyenDu',
 };
-user.nickname = 'DuDepTrai';
+user.nickname = 'DuGoodBoy';
 
-console.log(user); //{ username: 'NguyenDu', nickname: 'DuDepTrai' }
+console.log(user); //{ username: 'NguyenDu', nickname: 'DuGoodBoy' }

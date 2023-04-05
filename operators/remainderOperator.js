@@ -38,8 +38,11 @@ console.log(Boolean(isOddO(12))); //false
 const isOddT = (num) => num % 2;
 
 // % not modulo
+
 // ! modulo javascript: ((dividend % divisor) + divisor) % divisor
+
 // ? Example: 5, 3
+
 // todo: ((5 % 3) + 3) % 3 = 2
 
 // function modulo(a, b)
