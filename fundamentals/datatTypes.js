@@ -99,7 +99,6 @@ let contact = {
 };
 
 //access property object (truy cập đối tượng thuộc tính)
-
 console.log(contact.firstName); //John
 console.log(contact['firstName']); //John
 console.log(contact['address']['city']); //New York
