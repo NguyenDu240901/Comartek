@@ -20,6 +20,7 @@ console.log(person);
 // }
 
 console.log(person instanceof Person); //true
+
 console.log(person.getFullName()); //Nguyen Du
 // const pr = Person('My', 'Hanh'); // Cannot be called without the new keyword
 
@@ -52,5 +53,4 @@ console.log(Person.prototype); //{ getFirstName: [Function (anonymous)] }
 
 // ES6
 console.log(Object.getPrototypeOf(pr)); // { getFirstName: [Function (anonymous)] }
-
 console.log(pr.constructor.prototype); //{ getFirstName: [Function (anonymous)] }
