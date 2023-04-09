@@ -53,4 +53,5 @@ console.log(Person.prototype); //{ getFirstName: [Function (anonymous)] }
 
 // ES6
 console.log(Object.getPrototypeOf(pr)); // { getFirstName: [Function (anonymous)] }
+
 console.log(pr.constructor.prototype); //{ getFirstName: [Function (anonymous)] }
