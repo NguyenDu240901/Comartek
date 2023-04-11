@@ -3,7 +3,7 @@ const msg = document.querySelector('#message');
 const url = 'https://jsonplaceholder.typicode.com/todos?_limit=3';
 function load(url) {
     return new Promise(function (resolve, reject) {
-        const request = new XMLHttpRequest();
+        const request = new XMLHttpRequest(); // use XMLHttpRequest to load data asynchronously.
         request.open('GET', url, true);
         request.onload = function () {
             if (request.readyState === 4 && request.status === 200) {
